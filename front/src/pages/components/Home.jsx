@@ -1,14 +1,18 @@
 import React from 'react'
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
+import HomeFirst from './HomeFirst';
+import HomeCenter from './HomeCenter';
 const Home = () => {
   return (
-    <div>
-        <Helmet>
-                <meta charSet="utf-8" />
-                <title>Home</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
-    </div>
+    <section>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      <HomeFirst/>
+      <HomeCenter/>
+    </section>
   )
 }
 

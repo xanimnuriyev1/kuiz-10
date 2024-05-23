@@ -31,3 +31,18 @@ ul{
 .reservation{
     color: #ffc515;
 }
+.menu{
+    display: none;
+}
+@media screen and (max-width:992px) {
+    .menu{
+        display: block;
+        align-items: center;
+    }  
+    nav{
+        display: none;
+    }
+    .Info{
+        display: none;
+    }
+}

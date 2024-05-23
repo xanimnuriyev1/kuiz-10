@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaPhoneAlt } from "react-icons/fa";
+import { IoMenu } from "react-icons/io5";
 import './header.css'
 const Header = () => {
   return (
@@ -22,6 +23,9 @@ const Header = () => {
         <p className='reservation'>Reservations</p>
         <p><FaPhoneAlt /></p>
         <p> 652-345 3222 11</p>
+      </div>
+      <div className='menu'>
+        <p><IoMenu /></p>
       </div>
     </header>
   )
