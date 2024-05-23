@@ -41,3 +41,57 @@
     text-align: center;
     margin-top: 30px;
 }
+.Background{
+    background: url('https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp');
+    height: 400px;
+}
+.Testimonials{
+    color: white;
+}
+.TestimonialsTop{
+    padding-top: 150px;
+}
+.Text{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    line-height: 30px;
+}
+.BoxEat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px; 
+}
+.HomeMap{
+    background: url('https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp');
+    height: 400px;
+    margin-top: 70px;
+}
+.map{
+    color: white;
+}
+.Dashed{
+    width:200px ;
+    height: 1px ;
+    border: 1px dashed white;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Cart{
+    width: 550px;
+    margin: auto;
+}
+.mushrooms{
+    color: gray;
+}
+.form{
+   margin-left: 250px;
+}
